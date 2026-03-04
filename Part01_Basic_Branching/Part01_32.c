@@ -2,7 +2,7 @@
 // HEADER FILES
 #include <stdio.h>
 // MAIN FUNCTION
-int main(){
+int main() {
     // DECLARATION
     long long a, b, c, d, e;
     // INPUT
