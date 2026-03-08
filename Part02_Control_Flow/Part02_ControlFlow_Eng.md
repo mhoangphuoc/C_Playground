@@ -152,7 +152,7 @@ Given a positive integer $n$, calculate the sum of the cubes of the first $n$ po
 $$S = 1^3 + 2^3 + 3^3 + \dots + n^3$$
 
 ### Input:
-A single positive integer $n$ $(1 \le n \le 10^6)$.
+A single positive integer $n$ $(1 \le n \le 10^4)$.
 
 ### Output:
 A single integer representing the sum $S$.

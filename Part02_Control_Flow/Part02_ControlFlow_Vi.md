@@ -144,7 +144,7 @@ Cho số nguyên dương $n$, tính tổng lập phương của $n$ số nguyên
 $$S = 1^3 + 2^3 + 3^3 + \dots + n^3$$
 
 ### Input:
-Một số nguyên dương $n$ $(1 \le n \le 10^6)$.
+Một số nguyên dương $n$ $(1 \le n \le 10^4)$.
 
 ### Output:
 Một số nguyên duy nhất là tổng $S$.
