@@ -6,7 +6,7 @@ int main() {
     scanf("%hd", &t);
     for (short caseT = 1; caseT <= t; caseT++) {
         scanf("%lld", &n);
-        if (n % 10 == 0) { // nếu đề cho n (0 <= n <= 10^18 thì phải thêm điều kiện n != 0, vì 0 cũng là một số đối xứng) 
+        if (n % 10 == 0) { // loại bỏ các trường hợp số kết thúc bởi chữ số 0, nếu đề cho n (0 <= n <= 10^18 thì phải thêm điều kiện n != 0, vì 0 cũng là một số đối xứng) 
             printf("NO\n");
             continue;
         }
