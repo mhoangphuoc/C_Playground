@@ -13,20 +13,17 @@ int main() {
     scanf("%hd", &t);
     for (short caseT = 1; caseT <= t; caseT++) {
         long long n;
-        long long count = 2;
         scanf("%lld", &n);
-        if (n == 1) {
-            printf("YES\n");
-            continue;
+        long long low = 1L, high = 1000000000L;
+        long long ans = 0;
+        while (low <= high) {
+            long long temp = low + (high - low)/2;
+            if (temp <= n/temp) {
+                ans = temp;
+                low = temp + 1;
+            } else high = temp - 1;
         }
-        for (long long i = 2; i <= n/i; i++) {
-            if (n % i == 0) {
-                if (i != n/i) {
-                    count += 2;
-                } else count++;
-            }
-        }
-        printf("%s", (count % 2 == 0) ? "NO\n" : "YES\n");
+        printf("%s", ans * ans == n ? "YES\n": "NO\n");
     }
     return 0;
 }

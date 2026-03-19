@@ -1,4 +1,4 @@
-// 02 - 019: THỪ SỐ NGUYÊN TỐ THỨ K
+// 02 - 019: THỪA SỐ NGUYÊN TỐ THỨ K
 #include <stdio.h>
 int main() {
     int n, k, count = 0;
