@@ -1,12 +1,4 @@
-/* 02 -  023: Odd Number of Divisors
-Problem:
-Given a positive integer n, determine if the total number of its divisors is an odd number.
-
-Input:
-The first line contains the number of test cases T (1 <= T <= 100).
-Each of the next T lines contains a single positive integer n (1 <= n <= 10^18).
-Output:
-For each test case, print YES if n has an odd number of divisors, otherwise print NO.*/
+// 02 -  023: TỔNG SỐ LƯỢNG CÁC ƯỚC SỐ LÀ LẺ
 #include <stdio.h>
 int main() {
     short t;

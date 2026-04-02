@@ -480,8 +480,13 @@ A single integer representing the count of $n$-digit prime numbers that are eith
 
 ### Example:
 | INPUT | OUTPUT |
-|------:|:-------|
-| 2     | 20     |
+| ----: | :----- |
+|     1 | 4      |
+|     2 | 21     |
+|     3 | 69     |
+|     4 | 158    |
+|     5 | 354    |
+|     6 | 724    |
 
 -------------------------------------
 
@@ -527,7 +532,7 @@ Print `1` if $n$ is an Armstrong number, otherwise print `0`.
 # Exercise 027: *Luck-Wealth Number*
 
 ### Problem:
-A number is considered a "Luck-Wealth" (Loc Phat) number if it consists only of the digits 0, 6, and 8. Given a positive integer $n$, check if it is a Luck-Wealth number.
+A number is considered a "Luck-Wealth" number if it consists only of the digits 0, 6, and 8. Given a positive integer $n$, check if it is a Luck-Wealth number.
 
 ### Input:
 A single positive integer $n$ $(1 \le n \le 10^9)$.
